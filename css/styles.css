@@ -43,6 +43,7 @@ img {
 }
 
 .header {
+   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
 }
 
@@ -51,7 +52,6 @@ img {
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
-  outline: 2px solid;
 }
 
 .header-container {
@@ -69,9 +69,6 @@ img {
   text-transform: uppercase;
   color: var(--second-text-color);
   margin-right: 76px;
-  padding: 24px 0 24px 156px;
-  display: inline-block;
-  margin-bottom: 16px;
 }
 
 .logo-right {
@@ -87,13 +84,11 @@ img {
 }
 
 .header-link {
-  padding: 24px 0;
 }
 
 .header-list {
   gap: 40px;
   margin-left: 74px;
-  padding: 24px 0;
 }
 
 .navigation {
@@ -155,7 +150,6 @@ img {
   color: var(--white-color);
   margin: 0 auto;
   margin-bottom: 48px;
-  padding: 188px 472px 292px;
   max-width: 496px;
 }
 
@@ -174,7 +168,6 @@ img {
   border-radius: 4px;
   display: block;
   margin: 0 auto;
-  margin-bottom: 188px;
   min-width: 169px;
   border: none;
 }
@@ -272,8 +265,7 @@ img {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  margin-top: 32px;
-  margin-bottom: 8px;
+  margin bottom: 8px;
   text-align: center;
 }
 
@@ -296,6 +288,7 @@ img {
   letter-spacing: 0.02em;
   color: var(--second-white-color);
   margin-top: 16px;
+  max-width: 264px;
 }
 
 .btn-section{
