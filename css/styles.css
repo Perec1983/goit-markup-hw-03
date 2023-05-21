@@ -356,6 +356,10 @@ img {
   margin-bottom: 8px;
 }
 
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
 .gallery-text {
   font-size: 16px;
   line-height: 24px;
@@ -363,6 +367,21 @@ img {
   color: var(--body-text-color);
 }
 
+.logo-footer{
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--second-text-color);
+  margin-right: 76px;
+  margin-bottom: 16px;
+  display: inline-block;
+
+}
 .logo-right-footer {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
