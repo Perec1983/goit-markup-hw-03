@@ -70,6 +70,8 @@ img {
   color: var(--second-text-color);
   margin-right: 76px;
   padding: 24px 0 24px 156px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .logo-right {
@@ -181,9 +183,11 @@ img {
 .hero-btn:focus {
   background: var(--link-color);
 }
+
 .advantages {
   padding: 120px 0;
 }
+
 .advantages-title {
   width: calc((100% - 72px) / 4);
 }
