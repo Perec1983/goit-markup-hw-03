@@ -86,7 +86,6 @@ img {
 
 .header-link {
   padding: 24px 0;
-  padding: 24px 0;
 }
 
 .header-list {
@@ -104,6 +103,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--text-color);
+  padding: 24px 0;
 }
 
 .navigation-link:focus,
@@ -294,6 +294,16 @@ img {
   margin-top: 16px;
 }
 
+.btn-section{
+  padding: 96px 0 120px;
+}
+
+.btn-section-list{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 72px
+}
 .list-btn {
   font-family: inherit;
   font-weight: 500;
@@ -307,6 +317,9 @@ img {
   background: var(--second-white-color);
   cursor: pointer;
   margin-bottom: 72px;
+  padding: 12px 24p;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
 }
 
 .list-btn:hover,
