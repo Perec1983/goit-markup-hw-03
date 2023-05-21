@@ -317,7 +317,7 @@ img {
   background: var(--second-white-color);
   cursor: pointer;
   margin-bottom: 72px;
-  padding: 12px 24p;
+  padding: 12px 24px;
   border: 1px solid #e7e9fc;
   border-radius: 4px;
 }
